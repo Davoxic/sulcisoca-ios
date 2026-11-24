@@ -1,0 +1,688 @@
+{
+ "tipi": {
+  "Miniera": {
+   "colore": "#8a5a2b",
+   "emoji": "⛏️"
+  },
+  "Mare": {
+   "colore": "#1f7a8c",
+   "emoji": "🌊"
+  },
+  "Natura": {
+   "colore": "#4f7a37",
+   "emoji": "🌿"
+  },
+  "Storia": {
+   "colore": "#8c3b3b",
+   "emoji": "🏛️"
+  },
+  "Cibo": {
+   "colore": "#b5782a",
+   "emoji": "🍷"
+  },
+  "Leggenda": {
+   "colore": "#5b4a8a",
+   "emoji": "✨"
+  },
+  "Azione": {
+   "colore": "#7a1f1f",
+   "emoji": "💥"
+  },
+  "Aiuto": {
+   "colore": "#2f7a4a",
+   "emoji": "💚"
+  },
+  "Contro": {
+   "colore": "#1f5f7a",
+   "emoji": "🛡️"
+  }
+ },
+ "carte": [
+  {
+   "id": 1,
+   "nome": "Porto Flavia",
+   "tipo": "Miniera",
+   "luogo": "Masua",
+   "emoji": "🚢",
+   "stelle": 5,
+   "testo": "Un porto scavato nella roccia a picco sul mare: i minerali scendevano dalle gallerie direttamente sulle navi."
+  },
+  {
+   "id": 2,
+   "nome": "Pan di Zucchero",
+   "tipo": "Mare",
+   "luogo": "Masua",
+   "emoji": "🗻",
+   "stelle": 5,
+   "testo": "Il grande faraglione di calcare davanti alla costa di Masua, simbolo del Sulcis Iglesiente."
+  },
+  {
+   "id": 3,
+   "nome": "Le Due Sorelle",
+   "tipo": "Mare",
+   "luogo": "Nebida",
+   "emoji": "🪨",
+   "stelle": 3,
+   "testo": "Due guglie di roccia che spuntano dall'acqua blu sotto la terrazza di Nebida."
+  },
+  {
+   "id": 4,
+   "nome": "Laveria Lamarmora",
+   "tipo": "Miniera",
+   "luogo": "Nebida",
+   "emoji": "🏚️",
+   "stelle": 4,
+   "testo": "Edificio minerario affacciato sul mare, dove il minerale veniva lavato e separato."
+  },
+  {
+   "id": 5,
+   "nome": "Miniera di Monteponi",
+   "tipo": "Miniera",
+   "luogo": "Iglesias",
+   "emoji": "⛏️",
+   "stelle": 4,
+   "testo": "Una delle più antiche e importanti miniere dell'Iglesiente, cuore dell'attività estrattiva."
+  },
+  {
+   "id": 6,
+   "nome": "Grande Miniera di Serbariu",
+   "tipo": "Miniera",
+   "luogo": "Carbonia",
+   "emoji": "🏭",
+   "stelle": 4,
+   "testo": "Il grande complesso del carbone, oggi sede del Museo del Carbone."
+  },
+  {
+   "id": 7,
+   "nome": "Carbonia",
+   "tipo": "Storia",
+   "luogo": "Carbonia",
+   "emoji": "🏙️",
+   "stelle": 3,
+   "testo": "Città di fondazione degli anni Trenta, nata attorno al bacino carbonifero.",
+   "sfotto": "Fondata nel 1938, e da allora aspetta ancora il treno."
+  },
+  {
+   "id": 8,
+   "nome": "Miniera di Montevecchio",
+   "tipo": "Miniera",
+   "luogo": "Guspini",
+   "emoji": "🏔️",
+   "stelle": 4,
+   "testo": "Villaggio minerario con palazzi e pozzi, tra i più estesi complessi minerari d'Europa."
+  },
+  {
+   "id": 9,
+   "nome": "Ingurtosu",
+   "tipo": "Miniera",
+   "luogo": "Arbus",
+   "emoji": "🏚️",
+   "stelle": 3,
+   "testo": "Borgo minerario affacciato sulla Costa Verde, tra edifici abbandonati e macchia mediterranea."
+  },
+  {
+   "id": 10,
+   "nome": "Galleria Henry",
+   "tipo": "Miniera",
+   "luogo": "Buggerru",
+   "emoji": "🚇",
+   "stelle": 3,
+   "testo": "Una galleria carrozzabile che si percorre fino al mare, nel paese di Buggerru."
+  },
+  {
+   "id": 11,
+   "nome": "Buggerru",
+   "tipo": "Storia",
+   "luogo": "Buggerru",
+   "emoji": "⚓",
+   "stelle": 2,
+   "testo": "Paese minerario affacciato sul mare, con la sua piccola baia e la storia delle lotte operaie.",
+   "sfotto": "Il nome dice già tutto, non serve altro."
+  },
+  {
+   "id": 12,
+   "nome": "Pozzo Sella",
+   "tipo": "Miniera",
+   "luogo": "Iglesias",
+   "emoji": "🕳️",
+   "stelle": 2,
+   "testo": "Un pozzo con il suo castelletto, testimone del lavoro in profondità."
+  },
+  {
+   "id": 13,
+   "nome": "Santa Barbara",
+   "tipo": "Leggenda",
+   "luogo": "Iglesiente",
+   "emoji": "🕯️",
+   "stelle": 4,
+   "testo": "Patrona dei minatori: a lei ci si affidava prima di scendere in galleria."
+  },
+  {
+   "id": 14,
+   "nome": "Il Minatore",
+   "tipo": "Miniera",
+   "luogo": "Sulcis",
+   "emoji": "👷",
+   "stelle": 2,
+   "testo": "Elmetto, lampada e tanta fatica: le mani che hanno costruito questa terra."
+  },
+  {
+   "id": 15,
+   "nome": "Galena",
+   "tipo": "Miniera",
+   "luogo": "Iglesiente",
+   "emoji": "💎",
+   "stelle": 2,
+   "testo": "Il minerale del piombo: grigio, pesante e lucente."
+  },
+  {
+   "id": 16,
+   "nome": "Carbone del Sulcis",
+   "tipo": "Miniera",
+   "luogo": "Sulcis",
+   "emoji": "⚫",
+   "stelle": 2,
+   "testo": "Il combustibile fossile che ha dato lavoro a generazioni di famiglie."
+  },
+  {
+   "id": 17,
+   "nome": "Dune di Piscinas",
+   "tipo": "Natura",
+   "luogo": "Arbus",
+   "emoji": "🏜️",
+   "stelle": 5,
+   "testo": "Le dune più alte d'Europa: un deserto di sabbia dorata sul mare."
+  },
+  {
+   "id": 18,
+   "nome": "Cala Domestica",
+   "tipo": "Mare",
+   "luogo": "Buggerru",
+   "emoji": "🏖️",
+   "stelle": 3,
+   "testo": "Una piccola baia di sabbia chiara chiusa da scogliere, con una galleria che sbuca sulla spiaggia."
+  },
+  {
+   "id": 19,
+   "nome": "Isola di San Pietro",
+   "tipo": "Mare",
+   "luogo": "Carloforte",
+   "emoji": "🏝️",
+   "stelle": 4,
+   "testo": "Isola dal fascino ligure-sardo, famosa per scogliere, tonno e falchi."
+  },
+  {
+   "id": 20,
+   "nome": "Carloforte",
+   "tipo": "Storia",
+   "luogo": "San Pietro",
+   "emoji": "⛵",
+   "stelle": 4,
+   "testo": "Il paese colorato dell'isola di San Pietro, con tradizioni genovesi e lingua tabarchina.",
+   "sfotto": "Tonno ovunque, e anche chi non lo mangia puzza di tonno."
+  },
+  {
+   "id": 21,
+   "nome": "Le Colonne",
+   "tipo": "Mare",
+   "luogo": "Carloforte",
+   "emoji": "🗿",
+   "stelle": 3,
+   "testo": "Due faraglioni a forma di colonna che sorgono dal mare, davanti a Carloforte."
+  },
+  {
+   "id": 22,
+   "nome": "Tonno Rosso",
+   "tipo": "Cibo",
+   "luogo": "Carloforte",
+   "emoji": "🐟",
+   "stelle": 4,
+   "testo": "Re della tavola di Carloforte: grande protagonista della Girotonno."
+  },
+  {
+   "id": 23,
+   "nome": "Cassola",
+   "tipo": "Cibo",
+   "luogo": "Carloforte",
+   "emoji": "🍲",
+   "stelle": 3,
+   "testo": "Zuppa di pesce profumata di pomodoro e spezie, tipica dell'isola di San Pietro."
+  },
+  {
+   "id": 24,
+   "nome": "Isola di Sant'Antioco",
+   "tipo": "Mare",
+   "luogo": "Sant'Antioco",
+   "emoji": "🌉",
+   "stelle": 4,
+   "testo": "Isola unita alla Sardegna da un istmo e un ponte: una delle più antiche della zona."
+  },
+  {
+   "id": 25,
+   "nome": "Sulky",
+   "tipo": "Storia",
+   "luogo": "Sant'Antioco",
+   "emoji": "🏺",
+   "stelle": 5,
+   "testo": "Antica città fenicia e poi punica, tra le più importanti della Sardegna."
+  },
+  {
+   "id": 26,
+   "nome": "Tofet di Sulky",
+   "tipo": "Storia",
+   "luogo": "Sant'Antioco",
+   "emoji": "⚱️",
+   "stelle": 3,
+   "testo": "Area sacra di epoca fenicio-punica con stele e urne."
+  },
+  {
+   "id": 27,
+   "nome": "Calasetta",
+   "tipo": "Mare",
+   "luogo": "Calasetta",
+   "emoji": "🏘️",
+   "stelle": 2,
+   "testo": "Paese bianco e ordinato sulla punta nord dell'isola, con sapore ligure.",
+   "sfotto": "Così ordinata che pure le galline fanno la fila."
+  },
+  {
+   "id": 28,
+   "nome": "Porto Pino",
+   "tipo": "Mare",
+   "luogo": "Sant'Anna Arresi",
+   "emoji": "🏖️",
+   "stelle": 4,
+   "testo": "Dune bianche e acqua cristallina tra pineta e laguna, a sud del Sulcis."
+  },
+  {
+   "id": 29,
+   "nome": "Fenicotteri",
+   "tipo": "Natura",
+   "luogo": "Stagni del Sulcis",
+   "emoji": "🦩",
+   "stelle": 3,
+   "testo": "Rosa e instancabili, popolano gli stagni salmastri di questa costa."
+  },
+  {
+   "id": 30,
+   "nome": "Falco della Regina",
+   "tipo": "Natura",
+   "luogo": "San Pietro",
+   "emoji": "🦅",
+   "stelle": 3,
+   "testo": "Rapace elegante che nidifica sulle falesie dell'isola di San Pietro."
+  },
+  {
+   "id": 31,
+   "nome": "Cervo Sardo",
+   "tipo": "Natura",
+   "luogo": "Marganai",
+   "emoji": "🦌",
+   "stelle": 3,
+   "testo": "Un tempo quasi scomparso, oggi vive nelle foreste dell'Iglesiente."
+  },
+  {
+   "id": 32,
+   "nome": "Foresta di Marganai",
+   "tipo": "Natura",
+   "luogo": "Iglesias",
+   "emoji": "🌳",
+   "stelle": 3,
+   "testo": "Boschi di leccio sopra Iglesias, con sentieri e antiche miniere nascoste tra gli alberi."
+  },
+  {
+   "id": 33,
+   "nome": "Gutturu Mannu",
+   "tipo": "Natura",
+   "luogo": "Sulcis",
+   "emoji": "🌲",
+   "stelle": 3,
+   "testo": "Foresta selvaggia di lecci e corbezzoli, dove vive il cervo sardo."
+  },
+  {
+   "id": 34,
+   "nome": "Grotta di Su Mannau",
+   "tipo": "Natura",
+   "luogo": "Fluminimaggiore",
+   "emoji": "🦇",
+   "stelle": 4,
+   "testo": "Grotta ricca di stalattiti e sale, frequentata fin dall'antichità."
+  },
+  {
+   "id": 35,
+   "nome": "Grotta di San Giovanni",
+   "tipo": "Natura",
+   "luogo": "Domusnovas",
+   "emoji": "🕳️",
+   "stelle": 3,
+   "testo": "Una grotta che si attraversa a piedi e in macchina: un tunnel naturale nel calcare."
+  },
+  {
+   "id": 36,
+   "nome": "Tempio di Antas",
+   "tipo": "Storia",
+   "luogo": "Fluminimaggiore",
+   "emoji": "🏛️",
+   "stelle": 5,
+   "testo": "Tempio romano dedicato al Sardus Pater, immerso nel verde della valle."
+  },
+  {
+   "id": 37,
+   "nome": "Nuraghe Sirai",
+   "tipo": "Storia",
+   "luogo": "Carbonia",
+   "emoji": "🧱",
+   "stelle": 3,
+   "testo": "Fortezza nuragica e poi fenicia, a controllo del territorio minerario."
+  },
+  {
+   "id": 38,
+   "nome": "Castello di Salvaterra",
+   "tipo": "Storia",
+   "luogo": "Iglesias",
+   "emoji": "🏰",
+   "stelle": 3,
+   "testo": "Fortificazione medievale che domina Iglesias."
+  },
+  {
+   "id": 39,
+   "nome": "Cattedrale di Iglesias",
+   "tipo": "Storia",
+   "luogo": "Iglesias",
+   "emoji": "⛪",
+   "stelle": 3,
+   "testo": "Chiesa nel centro storico della città, tra vicoli di epoca pisana."
+  },
+  {
+   "id": 40,
+   "nome": "Carignano del Sulcis",
+   "tipo": "Cibo",
+   "luogo": "Sulcis",
+   "emoji": "🍷",
+   "stelle": 4,
+   "testo": "Vino rosso del Sulcis, spesso da viti a piede franco su terreni sabbiosi."
+  },
+  {
+   "id": 41,
+   "nome": "Bottarga",
+   "tipo": "Cibo",
+   "luogo": "Sulcis",
+   "emoji": "🟠",
+   "stelle": 3,
+   "testo": "Uova di pesce salate e stagionate: grattugiata sulla pasta, un classico."
+  },
+  {
+   "id": 42,
+   "nome": "Mirto",
+   "tipo": "Cibo",
+   "luogo": "Sardegna",
+   "emoji": "🫐",
+   "stelle": 2,
+   "testo": "Liquore dalle bacche di mirto, il brindisi che chiude ogni cena."
+  },
+  {
+   "id": 43,
+   "nome": "Pecorino Sardo",
+   "tipo": "Cibo",
+   "luogo": "Sardegna",
+   "emoji": "🧀",
+   "stelle": 2,
+   "testo": "Formaggio di pecora dal sapore deciso, compagno ideale del pane."
+  },
+  {
+   "id": 44,
+   "nome": "Pani Carasau",
+   "tipo": "Cibo",
+   "luogo": "Sardegna",
+   "emoji": "🫓",
+   "stelle": 2,
+   "testo": "Il pane sottile e croccante dei pastori."
+  },
+  {
+   "id": 45,
+   "nome": "Le Janas",
+   "tipo": "Leggenda",
+   "luogo": "Sardegna",
+   "emoji": "🧚",
+   "stelle": 4,
+   "testo": "Piccole fate del popolo antico, che secondo la tradizione abitavano le domus de janas."
+  },
+  {
+   "id": 46,
+   "nome": "Il Minatore Fantasma",
+   "tipo": "Leggenda",
+   "luogo": "Gallerie",
+   "emoji": "👻",
+   "stelle": 3,
+   "testo": "Nelle gallerie abbandonate, dicono, qualcuno ancora lavora di notte..."
+  },
+  {
+   "id": 47,
+   "nome": "Tonnara di Portoscuso",
+   "tipo": "Storia",
+   "luogo": "Portoscuso",
+   "emoji": "🎣",
+   "stelle": 3,
+   "testo": "Antica tonnara sul mare di Portoscuso, vicino alla torre spagnola."
+  },
+  {
+   "id": 48,
+   "nome": "Torre Spagnola",
+   "tipo": "Storia",
+   "luogo": "Portoscuso",
+   "emoji": "🗼",
+   "stelle": 3,
+   "testo": "Torre di avvistamento costiera, sentinella contro i pirati."
+  },
+  {
+   "id": 49,
+   "nome": "Capo Pecora",
+   "tipo": "Mare",
+   "luogo": "Buggerru",
+   "emoji": "🌅",
+   "stelle": 3,
+   "testo": "Promontorio selvaggio con tramonti memorabili sul mare aperto."
+  },
+  {
+   "id": 50,
+   "nome": "Costa Verde",
+   "tipo": "Natura",
+   "luogo": "Arbus",
+   "emoji": "🌄",
+   "stelle": 4,
+   "testo": "Costa selvaggia con dune, scogliere e vecchie miniere."
+  },
+  {
+   "id": 51,
+   "nome": "Gonnesa",
+   "tipo": "Storia",
+   "luogo": "Gonnesa",
+   "emoji": "👗",
+   "stelle": 2,
+   "testo": "La città delle gonne: il maestrale qui è un problema serio.",
+   "sfotto": "La città delle gonne: il maestrale qui è un problema serio.",
+   "pena": "Il maestrale ti alza la gonna: arretri di 3 caselle.",
+   "malus": {
+    "back": 3
+   }
+  },
+  {
+   "id": 52,
+   "nome": "Nuoro",
+   "tipo": "Leggenda",
+   "luogo": "Nuoro",
+   "emoji": "🤡",
+   "stelle": 5,
+   "testo": "La città cogliona. Carta rarissima: chi ci finisce sopra si prende il malus.",
+   "sfotto": "La città cogliona. Carta rarissima: chi ci finisce sopra si prende il malus.",
+   "pena": "Sei finito a Nuoro: salta un turno e vergognati!",
+   "malus": {
+    "skip": 1
+   }
+  },
+  {
+   "id": 53,
+   "nome": "Iglesias",
+   "tipo": "Storia",
+   "luogo": "Iglesias",
+   "emoji": "🎺",
+   "stelle": 3,
+   "testo": "La città che si crede Cagliari ma ha solo la processione.",
+   "sfotto": "La città che si crede Cagliari ma ha solo la processione."
+  },
+  {
+   "id": 54,
+   "nome": "Portoscuso",
+   "tipo": "Mare",
+   "luogo": "Portoscuso",
+   "emoji": "☁️",
+   "stelle": 2,
+   "testo": "Il paese dove il cielo è grigio e nessuno si lamenta più.",
+   "sfotto": "Il paese dove il cielo è grigio e nessuno si lamenta più."
+  },
+  {
+   "id": 55,
+   "nome": "Domusnovas",
+   "tipo": "Storia",
+   "luogo": "Domusnovas",
+   "emoji": "🔨",
+   "stelle": 2,
+   "testo": "Hanno scavato una grotta per scappare, e invece ci hanno fatto la strada.",
+   "sfotto": "Hanno scavato una grotta per scappare, e invece ci hanno fatto la strada."
+  },
+  {
+   "id": 56,
+   "nome": "Fluminimaggiore",
+   "tipo": "Storia",
+   "luogo": "Fluminimaggiore",
+   "emoji": "🌊",
+   "stelle": 2,
+   "testo": "Nome così lungo che a pronunciarlo finisce il fiato prima del fiume.",
+   "sfotto": "Nome così lungo che a pronunciarlo finisce il fiato prima del fiume.",
+   "pena": "Ti si ingarbuglia la lingua: salta un turno.",
+   "malus": {
+    "skip": 1
+   }
+  },
+  {
+   "id": 57,
+   "nome": "Narcao",
+   "tipo": "Storia",
+   "luogo": "Narcao",
+   "emoji": "🐑",
+   "stelle": 2,
+   "testo": "La città dei narcotici: nome innocente, vibrazioni sospette.",
+   "sfotto": "La città dei narcotici: nome innocente, vibrazioni sospette."
+  },
+  {
+   "id": 58,
+   "nome": "Santadi",
+   "tipo": "Storia",
+   "luogo": "Santadi",
+   "emoji": "🍷",
+   "stelle": 2,
+   "testo": "Il vino è così buono che dopo il terzo bicchiere si capisce pure il dialetto.",
+   "sfotto": "Il vino è così buono che dopo il terzo bicchiere si capisce pure il dialetto."
+  },
+  {
+   "id": 59,
+   "nome": "Villamassargia",
+   "tipo": "Storia",
+   "luogo": "Villamassargia",
+   "emoji": "🪖",
+   "stelle": 2,
+   "testo": "Il nome si impara in tre anni, in quattro se hai bevuto.",
+   "sfotto": "Il nome si impara in tre anni, in quattro se hai bevuto."
+  },
+  {
+   "id": 60,
+   "nome": "Giba",
+   "tipo": "Storia",
+   "luogo": "Giba",
+   "emoji": "🧢",
+   "stelle": 2,
+   "testo": "Tre lettere: il paese più risparmioso di tutto il Sulcis.",
+   "sfotto": "Tre lettere: il paese più risparmioso di tutto il Sulcis."
+  },
+  {
+   "id": 61,
+   "nome": "Nuxis",
+   "tipo": "Storia",
+   "luogo": "Nuxis",
+   "emoji": "🐐",
+   "stelle": 2,
+   "testo": "Nome che sembra una password dimenticata.",
+   "sfotto": "Nome che sembra una password dimenticata."
+  },
+  {
+   "id": 62,
+   "nome": "Maladroxia",
+   "tipo": "Mare",
+   "luogo": "Maladroxia",
+   "emoji": "🏖️",
+   "stelle": 2,
+   "testo": "Il mare è stupendo, il resto è zona fake: cagarsi addosso qui è quasi un rito.",
+   "sfotto": "Il mare è stupendo, il resto è zona fake: cagarsi addosso qui è quasi un rito."
+  },
+  {
+   "id": 63,
+   "nome": "Mercuri",
+   "tipo": "Storia",
+   "luogo": "Mercuri",
+   "emoji": "❓",
+   "stelle": 2,
+   "testo": "Nessuno sa dove sia, ma tutti giurano di esserci passati.",
+   "sfotto": "Nessuno sa dove sia, ma tutti giurano di esserci passati."
+  },
+  {
+   "id": 64,
+   "nome": "Cussorgia",
+   "tipo": "Storia",
+   "luogo": "Cussorgia",
+   "emoji": "🍺",
+   "stelle": 2,
+   "testo": "Di Cussorgia sai solo il nome del bar.",
+   "sfotto": "Di Cussorgia sai solo il nome del bar."
+  },
+  {
+   "id": 65,
+   "nome": "Tonnara",
+   "tipo": "Cibo",
+   "luogo": "Tonnara",
+   "emoji": "🐟",
+   "stelle": 2,
+   "testo": "La città del tonno: non c'è più un tonno vivo, ma l'odore resiste.",
+   "sfotto": "La città del tonno: non c'è più un tonno vivo, ma l'odore resiste."
+  },
+  {
+   "id": 66,
+   "nome": "San Giovanni Suergiu",
+   "tipo": "Storia",
+   "luogo": "San Giovanni Suergiu",
+   "emoji": "📝",
+   "stelle": 2,
+   "testo": "Il nome più lungo da scrivere nelle gare di ortografia.",
+   "sfotto": "Il nome più lungo da scrivere nelle gare di ortografia."
+  },
+  {
+   "id": 67,
+   "nome": "Tratalias",
+   "tipo": "Storia",
+   "luogo": "Tratalias",
+   "emoji": "🏚️",
+   "stelle": 2,
+   "testo": "Il vecchio paese è una cartolina, quello nuovo un parcheggio.",
+   "sfotto": "Il vecchio paese è una cartolina, quello nuovo un parcheggio."
+  },
+  {
+   "id": 68,
+   "nome": "Bacu Abis",
+   "tipo": "Miniera",
+   "luogo": "Bacu Abis",
+   "emoji": "🔦",
+   "stelle": 2,
+   "testo": "Ex miniera: tutti pensano sia un insulto latino.",
+   "sfotto": "Ex miniera: tutti pensano sia un insulto latino."
+  }
+ ]
+}

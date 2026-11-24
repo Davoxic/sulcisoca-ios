@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>SulcisOca – Da Sant'Antioco a Gonnesa</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<canvas id="cv"></canvas>
+<div id="labels"></div>
+<header>
+  <h1>⛏️ SulcisOca</h1>
+  <span id="progress"></span>
+  <nav>
+    <button id="btnLeave" title="Lascia la partita" hidden>🚪 Esci</button>
+    <button id="btnView" title="Ricentra la camera">🎯</button>
+    <button id="btnMusic" title="Musica">🎵</button>
+    <div id="volPop" hidden><b>🎵 Volume</b><div><button data-vol="0">0%</button><button data-vol="25">25%</button><button data-vol="50">50%</button><button data-vol="75">75%</button><button data-vol="100">100%</button></div></div>
+    <button id="btnNext" title="Brano successivo">⏭️</button>
+    <button id="btnSide" title="Giocatori e log">👥</button>
+    <button id="btnCollection" title="Collezione" hidden>🃏 <span id="collCount"></span></button>
+    
+    <button id="btnSkip" style="display:none!important"></button>
+    <button id="btnRules" title="Regole">❓</button>
+  </nav>
+</header>
+
+<section id="setup" class="panel">
+  <h2>⛏️ SulcisOca</h2>
+  <label class="namebox">Il tuo nome <input id="myName" type="text" maxlength="14" placeholder="Giocatore"></label>
+
+  <div id="menuHome">
+    <p>Da Maladroxia a Gonnesa: 162 caselle, 4 zone, carte, soldi, ospedali e cani poco raccomandabili.</p>
+    <div class="col"><button id="goOnline" class="primary">▶ Gioca contro i bot</button></div>
+    <p class="muted" style="font-size:.8em">Tutto offline, sul tuo dispositivo. 🎮 Controller supportato.</p>
+  </div>
+
+  <div id="menuAvatar" hidden>
+    <h3>Scegli il tuo avatar</h3>
+    <div id="avatarGrid" class="avgrid"></div>
+    <div class="row"><button id="avatarOk" class="primary">Continua →</button><button class="back" data-back>← Indietro</button></div>
+  </div>
+
+  <div id="menuLocal" hidden>
+    <div class="modes">
+      <label><input type="radio" name="mode" value="rapida"> <b>⚡ Rapida</b><br><small>2 dadi da 1 a 8</small></label>
+      <label><input type="radio" name="mode" value="normale" checked> <b>🎲 Normale</b><br><small>1 dado da 1 a 8</small></label>
+    </div>
+    <div id="players"></div>
+    <div class="row">
+            <button id="start" class="primary">▶ Inizia</button>
+      <button class="back" data-back>← Indietro</button>
+    </div>
+  </div>
+
+  <div id="menuLobbies" hidden>
+    <h3>Lobby disponibili</h3>
+    <div id="lobbyList"><p class="muted">Nessuna lobby: creane una!</p></div>
+    <h3>Crea una lobby</h3>
+    <div class="row">
+      <input id="newLobbyName" type="text" maxlength="24" placeholder="Nome lobby">
+      <select id="newLobbyMode"><option value="normale">🎲 Normale</option><option value="rapida">⚡ Rapida</option></select>
+      <button id="createLobby" class="primary">Crea</button>
+    </div>
+    <div class="row"><button class="back" data-back>← Indietro</button></div>
+    <p id="lobbyMsg" class="muted"></p>
+  </div>
+
+  <div id="menuRoom" hidden>
+    <h3 id="roomTitle"></h3>
+    <div id="roomPlayers"></div>
+    <div class="row" id="roomHost" hidden>
+      <select id="roomMode"><option value="normale">🎲 Normale</option><option value="rapida">⚡ Rapida</option></select>
+      <button id="roomAddCpu">+ CPU</button>
+      <button id="roomStart" class="primary">▶ Inizia</button>
+    </div>
+    <div class="row"><button id="roomReady">✔ Pronto</button><button id="roomLeave" class="back">Esci dalla lobby</button></div>
+    <p id="roomMsg" class="muted"></p>
+  </div>
+</section>
+
+<section id="game" hidden>
+  <div id="banner"><span id="bt"></span><i id="tb"></i></div>
+  <div id="bigCount" hidden></div>
+  <div id="forceBar" hidden></div>
+  <div id="shell" hidden></div>
+  <div id="skipAsk" hidden></div>
+  <div id="stepsLeft" hidden></div>
+  <div id="stats"></div>
+  <div id="plist"></div>
+  <button id="zoneInfoBtn" title="Info sulla zona">❓ info sulla zona</button>
+  <aside id="side">
+    <div id="scores"></div>
+    <div id="log"></div>
+    <button id="quit">Abbandona partita</button>
+  </aside>
+  <div id="bar">
+    <div id="slots">
+      <button class="slot" id="slot0"></button>
+      <button class="slot" id="slot1"></button>
+      <button class="slot counter" id="slotC"></button>
+    </div>
+    <div id="dice"><span class="die" id="d1">·</span><span class="die" id="d2">·</span></div>
+    <button id="roll" class="primary">🎲 Tira</button>
+  </div>
+</section>
+
+<div id="tip" hidden></div>
+<div id="toast" hidden></div>
+<div id="zoneBanner" hidden><div class="zn"></div><div class="zd"></div></div>
+<div id="modal" class="modal" hidden><div class="modal-inner" id="modalInner"></div></div>
+
+<script src="vendor/three.min.js"></script>
+<script src="audio.js"></script>
+<script src="world.js"></script>
+<script src="fx.js"></script>
+<script src="events.js"></script>
+<script src="extra.js"></script>
+<script src="rules.js"></script>
+<script src="pad.js"></script>
+</body>
+</html>

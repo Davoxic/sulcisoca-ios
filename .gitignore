@@ -1,0 +1,5 @@
+build/
+Payload/
+*.ipa
+SulcisOca.xcodeproj/
+.DS_Store

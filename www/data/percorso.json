@@ -1,0 +1,504 @@
+{
+ "origine": [
+  8.6,
+  39.15
+ ],
+ "scala": 2600,
+ "zone": {
+  "fake": {
+   "nome": "Fake Sant'Antioco Lands",
+   "colore": "#e040fb",
+   "desc": "Zona del cazzo. A ogni casella hai il 20% di cagarti addosso e tornare indietro di 1."
+  },
+  "true": {
+   "nome": "True Sant'Antioco Lands",
+   "colore": "#00e5ff",
+   "desc": "La casa non è pulita, nessuno è al sicuro… (dopo che Marilena è passata, per 5 tiri non torna)"
+  },
+  "mid": {
+   "nome": "Nobody Lives Here Lands",
+   "colore": "#ffab00",
+   "desc": "Qui non vive nessuno. Ti senti molto solo e a ogni tiro hai l'ansia che qualcuno ti accoltelli alle spalle: 10% di perdere 1 ❤️."
+  },
+  "job": {
+   "nome": "Job Enslavement Lands",
+   "colore": "#ff5252",
+   "desc": "Qui si lavora… A ogni tiro hai il 20% che la mamma di Giorgia ti assuma al McDonald: salti il prossimo turno, sfigato."
+  },
+  "out": {
+   "nome": "Fuori Gonnesa",
+   "colore": "#f2f2f2",
+   "desc": "Qui non c'è niente. Torna indietro verso Gonnesa!"
+  }
+ },
+ "ospedali": [
+  10,
+  42,
+  78,
+  102
+ ],
+ "negozi": [
+  16,
+  33,
+  88,
+  115
+ ],
+ "tappe": [
+  {
+   "casella": 1,
+   "nome": "Maladroxia",
+   "lat": 38.99,
+   "lon": 8.45,
+   "carta": "Maladroxia",
+   "zona": "fake"
+  },
+  {
+   "casella": 7,
+   "nome": "Capo Sperone",
+   "lat": 38.956,
+   "lon": 8.415,
+   "carta": "Isola di Sant'Antioco",
+   "zona": "fake"
+  },
+  {
+   "casella": 14,
+   "nome": "Mercuri",
+   "lat": 39.03,
+   "lon": 8.37,
+   "carta": "Mercuri",
+   "zona": "fake"
+  },
+  {
+   "casella": 24,
+   "nome": "Tonnara",
+   "lat": 39.08,
+   "lon": 8.35,
+   "carta": "Tonnara",
+   "zona": "true"
+  },
+  {
+   "casella": 30,
+   "nome": "Calasetta",
+   "lat": 39.105,
+   "lon": 8.37,
+   "carta": "Calasetta",
+   "zona": "true"
+  },
+  {
+   "casella": 33,
+   "nome": "Cussorgia",
+   "lat": 39.09,
+   "lon": 8.415,
+   "carta": "Cussorgia",
+   "zona": "true"
+  },
+  {
+   "casella": 36,
+   "nome": "Sant'Antioco nord",
+   "lat": 39.078,
+   "lon": 8.438,
+   "carta": "",
+   "zona": "true",
+   "minore": true
+  },
+  {
+   "casella": 39,
+   "nome": "Sant'Antioco",
+   "lat": 39.066,
+   "lon": 8.442,
+   "carta": "Sulky",
+   "zona": "true"
+  },
+  {
+   "casella": 42,
+   "nome": "Sant'Antioco ovest",
+   "lat": 39.055,
+   "lon": 8.425,
+   "carta": "",
+   "zona": "true",
+   "minore": true
+  },
+  {
+   "casella": 46,
+   "nome": "Sant'Antioco colline",
+   "lat": 39.04,
+   "lon": 8.418,
+   "carta": "",
+   "zona": "true",
+   "minore": true
+  },
+  {
+   "casella": 49,
+   "nome": "Sant'Antioco sud",
+   "lat": 39.025,
+   "lon": 8.428,
+   "carta": "",
+   "zona": "true",
+   "minore": true
+  },
+  {
+   "casella": 52,
+   "nome": "Sant'Antioco sud-est",
+   "lat": 39.02,
+   "lon": 8.445,
+   "carta": "",
+   "zona": "true",
+   "minore": true
+  },
+  {
+   "casella": 56,
+   "nome": "Lungomare sud",
+   "lat": 39.035,
+   "lon": 8.452,
+   "carta": "",
+   "zona": "true",
+   "minore": true
+  },
+  {
+   "casella": 59,
+   "nome": "Lungomare di Sant'Antioco",
+   "lat": 39.05,
+   "lon": 8.452,
+   "carta": "",
+   "zona": "true",
+   "minore": true
+  },
+  {
+   "casella": 63,
+   "nome": "Ponte di Sant'Antioco",
+   "lat": 39.066,
+   "lon": 8.468,
+   "carta": "Fenicotteri",
+   "zona": "true"
+  },
+  {
+   "casella": 68,
+   "nome": "San Giovanni Suergiu",
+   "lat": 39.0639,
+   "lon": 8.5171,
+   "carta": "San Giovanni Suergiu",
+   "zona": "mid"
+  },
+  {
+   "casella": 74,
+   "nome": "Tratalias",
+   "lat": 39.0554,
+   "lon": 8.5738,
+   "carta": "Tratalias",
+   "zona": "mid"
+  },
+  {
+   "casella": 80,
+   "nome": "Giba",
+   "lat": 39.0597,
+   "lon": 8.633,
+   "carta": "Giba",
+   "zona": "mid"
+  },
+  {
+   "casella": 86,
+   "nome": "Santadi",
+   "lat": 39.1062,
+   "lon": 8.6499,
+   "carta": "Santadi",
+   "zona": "mid"
+  },
+  {
+   "casella": 91,
+   "nome": "Nuxis",
+   "lat": 39.157,
+   "lon": 8.6499,
+   "carta": "Nuxis",
+   "zona": "mid"
+  },
+  {
+   "casella": 97,
+   "nome": "Narcao",
+   "lat": 39.157,
+   "lon": 8.6034,
+   "carta": "Narcao",
+   "zona": "mid"
+  },
+  {
+   "casella": 103,
+   "nome": "Sirai",
+   "lat": 39.125,
+   "lon": 8.575,
+   "carta": "",
+   "zona": "mid",
+   "minore": true
+  },
+  {
+   "casella": 110,
+   "nome": "Carbonia",
+   "lat": 39.1485,
+   "lon": 8.5315,
+   "carta": "Carbonia",
+   "zona": "job"
+  },
+  {
+   "casella": 115,
+   "nome": "Cortoghiana",
+   "lat": 39.115,
+   "lon": 8.545,
+   "carta": "",
+   "zona": "job",
+   "minore": true
+  },
+  {
+   "casella": 119,
+   "nome": "Is Gannaus",
+   "lat": 39.09,
+   "lon": 8.52,
+   "carta": "",
+   "zona": "job",
+   "minore": true
+  },
+  {
+   "casella": 123,
+   "nome": "Barbusi",
+   "lat": 39.1,
+   "lon": 8.49,
+   "carta": "",
+   "zona": "job",
+   "minore": true
+  },
+  {
+   "casella": 126,
+   "nome": "Bacu Abis",
+   "lat": 39.1167,
+   "lon": 8.47,
+   "carta": "Bacu Abis",
+   "zona": "job"
+  },
+  {
+   "casella": 133,
+   "nome": "Serbariu",
+   "lat": 39.16,
+   "lon": 8.505,
+   "carta": "",
+   "zona": "job",
+   "minore": true
+  },
+  {
+   "casella": 136,
+   "nome": "Gonnesa",
+   "lat": 39.1485,
+   "lon": 8.4765,
+   "carta": "Gonnesa",
+   "zona": "job",
+   "minore": true
+  },
+  {
+   "casella": 137,
+   "nome": "Gonnesa",
+   "lat": 39.1548,
+   "lon": 8.4722,
+   "carta": "Gonnesa",
+   "zona": "job",
+   "minore": true
+  },
+  {
+   "casella": 138,
+   "nome": "Gonnesa",
+   "lat": 39.1612,
+   "lon": 8.4701,
+   "carta": "Gonnesa",
+   "zona": "job"
+  },
+  {
+   "casella": 139,
+   "nome": "Gonnesa",
+   "lat": 39.1675,
+   "lon": 8.4701,
+   "carta": "Gonnesa",
+   "zona": "job",
+   "minore": true
+  },
+  {
+   "casella": 140,
+   "nome": "Gonnesa",
+   "lat": 39.1739,
+   "lon": 8.4722,
+   "carta": "Gonnesa",
+   "zona": "job",
+   "minore": true
+  },
+  {
+   "casella": 145,
+   "nome": "Iglesias",
+   "lat": 39.2077,
+   "lon": 8.5315,
+   "carta": "Iglesias",
+   "zona": "out"
+  },
+  {
+   "casella": 151,
+   "nome": "Villamassargia",
+   "lat": 39.2035,
+   "lon": 8.5907,
+   "carta": "Villamassargia",
+   "zona": "out"
+  },
+  {
+   "casella": 156,
+   "nome": "Siliqua",
+   "lat": 39.2077,
+   "lon": 8.6415,
+   "carta": "Siliqua",
+   "zona": "out"
+  },
+  {
+   "casella": 159,
+   "nome": "Decimomannu",
+   "lat": 39.2035,
+   "lon": 8.6965,
+   "carta": "Decimomannu",
+   "zona": "out"
+  },
+  {
+   "casella": 162,
+   "nome": "Cagliari",
+   "lat": 39.1697,
+   "lon": 8.7261,
+   "carta": "Cagliari",
+   "zona": "out"
+  }
+ ],
+ "totale": 162,
+ "vittoria": [
+  137,
+  139
+ ],
+ "oltre": [
+  140,
+  161
+ ],
+ "cagliari": 162,
+ "gialle": [
+  3,
+  11,
+  13,
+  17,
+  18,
+  19,
+  21,
+  22,
+  26,
+  27,
+  31,
+  32,
+  35,
+  40,
+  41,
+  44,
+  48,
+  50,
+  51,
+  53,
+  54,
+  65,
+  66,
+  68,
+  72,
+  74,
+  94,
+  95,
+  100,
+  103,
+  105,
+  112,
+  117,
+  121,
+  129,
+  131,
+  135
+ ],
+ "verdi": {
+  "carloforte": [
+   29,
+   30
+  ],
+  "simone": [
+   58,
+   63
+  ],
+  "ponzu": [
+   85,
+   87
+  ],
+  "tonnara": [
+   23,
+   25
+  ],
+  "narcao": [
+   96,
+   98
+  ],
+  "bacu": [
+   125,
+   127
+  ],
+  "nuxis": [
+   90,
+   92
+  ],
+  "negroni": [
+   6,
+   8
+  ],
+  "pecore": [
+   75,
+   76
+  ],
+  "pesca": [
+   28,
+   28
+  ],
+  "mattia": [
+   34,
+   34
+  ],
+  "giba": [
+   79,
+   81
+  ]
+ },
+ "carloforte": [
+  {
+   "lat": 39.141,
+   "lon": 8.313
+  },
+  {
+   "lat": 39.146,
+   "lon": 8.306
+  },
+  {
+   "lat": 39.152,
+   "lon": 8.298
+  },
+  {
+   "lat": 39.158,
+   "lon": 8.29
+  }
+ ],
+ "eventi": {
+  "31": "vecchio",
+  "37": "scuola",
+  "45": "renzo",
+  "49": "rubiu",
+  "38": "bocca"
+ },
+ "tonnaraGialle": [
+  18,
+  28
+ ],
+ "casa": 41,
+ "tipiFissi": true,
+ "ricche": [
+  82,
+  83,
+  84,
+  89
+ ]
+}

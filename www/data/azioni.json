@@ -1,0 +1,242 @@
+[
+ {
+  "id": "zara",
+  "nome": "ZARA CANE DI MERDA",
+  "tipo": "Azione",
+  "emoji": "🐕‍⬛",
+  "prezzo": 6,
+  "bersaglio": "me",
+  "testo": "Un cane nero fa la cacca vicino a te: la puzza uccide chiunque (tranne te) sia entro 10 caselle davanti o dietro. Chi muore va al primo ospedale indietro."
+ },
+ {
+  "id": "maestrale",
+  "nome": "Colpo di Maestrale",
+  "tipo": "Azione",
+  "emoji": "🌪️",
+  "prezzo": 6,
+  "bersaglio": "giocatore",
+  "testo": "Una folata micidiale: il bersaglio perde 1 ❤️."
+ },
+ {
+  "id": "vento",
+  "nome": "Maestrale in poppa",
+  "tipo": "Aiuto",
+  "emoji": "🌬️",
+  "prezzo": 3,
+  "bersaglio": "me",
+  "testo": "Il maestrale ti spinge da dietro: al prossimo tiro il risultato del dado vale doppio."
+ },
+ {
+  "id": "tonno",
+  "nome": "Tonno in faccia",
+  "tipo": "Azione",
+  "emoji": "🐟",
+  "prezzo": 6,
+  "bersaglio": "giocatore",
+  "testo": "Tonno rosso lanciato con precisione: il bersaglio perde 1 ❤️ (50 di danno)."
+ },
+ {
+  "id": "furto",
+  "nome": "Borseggio",
+  "tipo": "Azione",
+  "emoji": "🕶️",
+  "prezzo": 6,
+  "bersaglio": "giocatore",
+  "testo": "Rubi fino a 4€ al bersaglio."
+ },
+ {
+  "id": "frana",
+  "nome": "Frana mirata",
+  "tipo": "Azione",
+  "emoji": "🪨",
+  "prezzo": 6,
+  "bersaglio": "giocatore",
+  "testo": "Il bersaglio salta il prossimo turno."
+ },
+ {
+  "id": "cassola",
+  "nome": "Cassola di Carloforte",
+  "tipo": "Aiuto",
+  "emoji": "🍲",
+  "prezzo": 6,
+  "bersaglio": "me",
+  "testo": "Recuperi 1 ❤️."
+ },
+ {
+  "id": "vespa",
+  "nome": "Vespa truccata",
+  "tipo": "Aiuto",
+  "emoji": "🛵",
+  "prezzo": 6,
+  "bersaglio": "me",
+  "testo": "+4 caselle al prossimo tiro."
+ },
+ {
+  "id": "santabarbara",
+  "nome": "Santa Barbara protettrice",
+  "tipo": "Contro",
+  "emoji": "🕯️",
+  "prezzo": 10,
+  "bersaglio": "contro",
+  "testo": "Va nello slot salvezza: annulla un effetto subito da altri giocatori."
+ },
+ {
+  "id": "medikit",
+  "nome": "Medikit",
+  "tipo": "Aiuto",
+  "emoji": "🩹",
+  "prezzo": 4,
+  "bersaglio": "me",
+  "testo": "Ti ridà la vita: torni a 2 ❤️."
+ },
+ {
+  "id": "moro",
+  "nome": "Aldo Moro V2",
+  "tipo": "Azione",
+  "emoji": "🚗",
+  "prezzo": 8,
+  "bersaglio": "leader",
+  "dove": "narcao",
+  "testo": "Rapisci il bastardo più avanti di tutti e lo carichi in una Renault 4: vi scambiate di posto."
+ },
+ {
+  "id": "coca",
+  "nome": "Cocaina",
+  "tipo": "Aiuto",
+  "emoji": "❄️",
+  "prezzo": 8,
+  "bersaglio": "me",
+  "dove": "narcao",
+  "testo": "Tiri una sniffata e vedi tutto più colorato: per i prossimi 2 tiri il dado non può fare meno di 6."
+ },
+ {
+  "id": "sicario",
+  "nome": "Sicario",
+  "tipo": "Azione",
+  "emoji": "🔪",
+  "prezzo": 8,
+  "bersaglio": "giocatore",
+  "dove": "narcao",
+  "testo": "Uccidi una persona a tua scelta: va al primo ospedale dietro di lei."
+ },
+ {
+  "id": "pistola",
+  "nome": "Pistola",
+  "tipo": "Passiva",
+  "emoji": "🔫",
+  "prezzo": 6,
+  "bersaglio": "me",
+  "dove": "narcao",
+  "testo": "La tieni in tasca: il primo che ti sorpassa durante il suo turno viene sparato e muore."
+ },
+ {
+  "id": "mafia",
+  "nome": "Mafia sotto casa",
+  "tipo": "Azione",
+  "emoji": "👊",
+  "prezzo": 6,
+  "bersaglio": "giocatore",
+  "dove": "narcao",
+  "testo": "Scegli un giocatore a cui sfanculare i dadi: per 2 turni non potrà fare più di 4."
+ },
+ {
+  "id": "padrino",
+  "nome": "Benedizione del Padrino",
+  "tipo": "Contro",
+  "emoji": "🤌",
+  "prezzo": 4,
+  "bersaglio": "contro",
+  "dove": "narcao",
+  "testo": "Slot salvezza mafioso: ti salva da quello che sta per succederti. Costa meno perché è roba della mafia."
+ },
+ {
+  "id": "pizzo",
+  "nome": "Pizzo",
+  "tipo": "Passiva",
+  "emoji": "💼",
+  "prezzo": 2,
+  "bersaglio": "me",
+  "dove": "narcao",
+  "testo": "2€ a ogni tuo turno: se ti capita un evento di zona arriva il mafioso, spara a chi ti dà fastidio e vai avanti come se niente fosse. Finisce quando arrivi a 0€."
+ },
+ {
+  "id": "muro",
+  "nome": "Muro di Bacu Abis",
+  "tipo": "Azione",
+  "emoji": "🧱",
+  "prezzo": 9,
+  "bersaglio": "me",
+  "dove": "bacu",
+  "testo": "Costruisci un muro sulla tua casella: chi ci arriva contro rimbalza e torna indietro. Regge 1 rimbalzo, poi si rompe; dopo 3 tuoi turni crolla comunque."
+ },
+ {
+  "id": "birra",
+  "nome": "Birra di Rubiu",
+  "tipo": "Aiuto",
+  "emoji": "🍺",
+  "prezzo": 6,
+  "bersaglio": "me",
+  "dove": "rubiu",
+  "testo": "Dado magico al prossimo tiro: 50% +5 (hai bevuto il giusto) o 50% −5 (hai bevuto troppo)."
+ },
+ {
+  "id": "margherita",
+  "nome": "Pizza margherita",
+  "tipo": "Aiuto",
+  "emoji": "🍕",
+  "prezzo": 3,
+  "bersaglio": "me",
+  "dove": "rubiu",
+  "testo": "Quando la mangi recuperi 1 ❤️."
+ },
+ {
+  "id": "panozzo",
+  "nome": "Panozzo",
+  "tipo": "Aiuto",
+  "emoji": "🥪",
+  "prezzo": 4,
+  "bersaglio": "me",
+  "dove": "bocca",
+  "testo": "Il panozzo del Boccadillos: recuperi 1 ❤️."
+ },
+ {
+  "id": "patatine",
+  "nome": "Patatine",
+  "tipo": "Aiuto",
+  "emoji": "🍟",
+  "prezzo": 4,
+  "bersaglio": "me",
+  "dove": "bocca",
+  "testo": "+2 ai prossimi 2 tiri di dado."
+ },
+ {
+  "id": "ragnatela",
+  "nome": "Ragnatela del Principe",
+  "tipo": "Servizio",
+  "emoji": "🕸️",
+  "prezzo": 6,
+  "bersaglio": "tutti",
+  "dove": "nuxis",
+  "testo": "Il principe di Nuxis va da tutti gli avversari e li lega nella ragnatela: congelati per 2 turni."
+ },
+ {
+  "id": "ragno",
+  "nome": "Protezione del ragno",
+  "tipo": "Passiva",
+  "emoji": "🕷️",
+  "prezzo": 4,
+  "bersaglio": "me",
+  "dove": "nuxis",
+  "testo": "Il ragno veglia su di te: ti salva dal prossimo evento di zona (Marilena, sconosciuto, McDonald, cagata)."
+ },
+ {
+  "id": "bici",
+  "nome": "Bici di merda",
+  "tipo": "Aiuto",
+  "emoji": "🚲",
+  "prezzo": 0,
+  "bersaglio": "me",
+  "dove": "vecchio",
+  "testo": "Regalo del vecchio. Non va molto veloce, ma ti aiuta: +2 ai prossimi 3 tiri."
+ }
+]
